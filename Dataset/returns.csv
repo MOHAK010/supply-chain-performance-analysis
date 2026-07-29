@@ -1,0 +1,803 @@
+return_id,order_id,return_reason,returned_qty
+9001,10004,Damaged,1
+9002,10015,Late Delivery,6
+9003,10020,Damaged,5
+9004,10043,Late Delivery,1
+9005,10056,Late Delivery,6
+9006,10068,Late Delivery,16
+9007,10092,Late Delivery,1
+9008,10107,Damaged,3
+9009,10108,Late Delivery,1
+9010,10111,Damaged,4
+9011,10114,Wrong Item,2
+9012,10115,Late Delivery,1
+9013,10121,Damaged,1
+9014,10134,Wrong Item,6
+9015,10139,Wrong Item,2
+9016,10146,Wrong Item,5
+9017,10153,Late Delivery,25
+9018,10185,Late Delivery,8
+9019,10190,Damaged,1
+9020,10192,Damaged,6
+9021,10198,Late Delivery,13
+9022,10204,Late Delivery,9
+9023,10236,Damaged,2
+9024,10242,Wrong Item,1
+9025,10253,Damaged,3
+9026,10276,Wrong Item,4
+9027,10301,Late Delivery,24
+9028,10344,Late Delivery,1
+9029,10357,Wrong Item,7
+9030,10399,Late Delivery,7
+9031,10432,Damaged,1
+9032,10447,Damaged,4
+9033,10465,Damaged,15
+9034,10475,Wrong Item,12
+9035,10478,Damaged,2
+9036,10525,Late Delivery,3
+9037,10527,Late Delivery,1
+9038,10541,Late Delivery,3
+9039,10568,Late Delivery,2
+9040,10570,Wrong Item,5
+9041,10572,Damaged,2
+9042,10595,Wrong Item,2
+9043,10596,Damaged,14
+9044,10600,Damaged,14
+9045,10607,Late Delivery,2
+9046,10617,Late Delivery,6
+9047,10625,Damaged,1
+9048,10627,Damaged,5
+9049,10664,Damaged,5
+9050,10685,Damaged,1
+9051,10695,Wrong Item,6
+9052,10699,Damaged,1
+9053,10701,Damaged,2
+9054,10703,Late Delivery,2
+9055,10755,Damaged,4
+9056,10761,Late Delivery,10
+9057,10769,Wrong Item,1
+9058,10793,Damaged,4
+9059,10810,Late Delivery,4
+9060,10825,Wrong Item,5
+9061,10828,Late Delivery,10
+9062,10845,Damaged,3
+9063,10851,Damaged,1
+9064,10853,Late Delivery,5
+9065,10893,Late Delivery,5
+9066,10895,Late Delivery,5
+9067,10902,Late Delivery,1
+9068,10909,Damaged,1
+9069,10936,Wrong Item,5
+9070,10937,Late Delivery,3
+9071,10963,Wrong Item,7
+9072,10979,Damaged,1
+9073,11002,Damaged,9
+9074,11031,Late Delivery,6
+9075,11033,Wrong Item,2
+9076,11058,Wrong Item,2
+9077,11069,Damaged,1
+9078,11125,Wrong Item,1
+9079,11165,Wrong Item,1
+9080,11171,Wrong Item,6
+9081,11185,Damaged,1
+9082,11218,Late Delivery,13
+9083,11251,Wrong Item,7
+9084,11256,Wrong Item,23
+9085,11259,Late Delivery,1
+9086,11264,Damaged,13
+9087,11274,Late Delivery,11
+9088,11311,Damaged,18
+9089,11324,Damaged,7
+9090,11326,Damaged,11
+9091,11378,Late Delivery,1
+9092,11379,Wrong Item,4
+9093,11391,Late Delivery,11
+9094,11392,Late Delivery,2
+9095,11393,Wrong Item,12
+9096,11405,Late Delivery,6
+9097,11412,Damaged,6
+9098,11456,Late Delivery,1
+9099,11461,Damaged,1
+9100,11467,Damaged,1
+9101,11470,Late Delivery,5
+9102,11492,Damaged,5
+9103,11503,Wrong Item,9
+9104,11504,Wrong Item,3
+9105,11506,Wrong Item,4
+9106,11516,Late Delivery,4
+9107,11525,Wrong Item,1
+9108,11527,Late Delivery,10
+9109,11535,Late Delivery,2
+9110,11557,Late Delivery,9
+9111,11570,Wrong Item,12
+9112,11573,Wrong Item,1
+9113,11594,Late Delivery,16
+9114,11614,Late Delivery,14
+9115,11625,Damaged,12
+9116,11647,Late Delivery,6
+9117,11655,Late Delivery,5
+9118,11666,Wrong Item,2
+9119,11668,Late Delivery,1
+9120,11680,Damaged,6
+9121,11700,Wrong Item,1
+9122,11716,Wrong Item,1
+9123,11727,Damaged,13
+9124,11757,Wrong Item,1
+9125,11764,Wrong Item,6
+9126,11770,Wrong Item,9
+9127,11774,Wrong Item,1
+9128,11779,Wrong Item,1
+9129,11788,Damaged,2
+9130,11791,Wrong Item,3
+9131,11803,Late Delivery,9
+9132,11817,Damaged,13
+9133,11818,Wrong Item,3
+9134,11823,Wrong Item,10
+9135,11826,Late Delivery,2
+9136,11831,Wrong Item,8
+9137,11836,Damaged,7
+9138,11837,Wrong Item,4
+9139,11853,Damaged,1
+9140,11855,Damaged,11
+9141,11858,Damaged,7
+9142,11859,Damaged,17
+9143,11865,Late Delivery,5
+9144,11887,Damaged,22
+9145,11903,Wrong Item,4
+9146,11921,Damaged,6
+9147,11924,Wrong Item,2
+9148,11926,Damaged,6
+9149,11930,Damaged,7
+9150,11938,Wrong Item,3
+9151,11939,Damaged,10
+9152,11953,Damaged,18
+9153,11962,Damaged,15
+9154,11975,Wrong Item,9
+9155,11979,Late Delivery,2
+9156,11994,Wrong Item,11
+9157,11995,Wrong Item,7
+9158,12010,Wrong Item,13
+9159,12033,Wrong Item,9
+9160,12046,Damaged,14
+9161,12047,Damaged,16
+9162,12049,Damaged,7
+9163,12084,Late Delivery,3
+9164,12088,Damaged,18
+9165,12095,Wrong Item,19
+9166,12113,Wrong Item,2
+9167,12148,Damaged,16
+9168,12176,Damaged,13
+9169,12179,Late Delivery,10
+9170,12194,Damaged,12
+9171,12196,Damaged,13
+9172,12200,Wrong Item,12
+9173,12219,Late Delivery,8
+9174,12228,Wrong Item,4
+9175,12253,Late Delivery,7
+9176,12257,Late Delivery,22
+9177,12263,Late Delivery,7
+9178,12265,Wrong Item,8
+9179,12291,Damaged,4
+9180,12305,Wrong Item,10
+9181,12324,Damaged,4
+9182,12344,Late Delivery,13
+9183,12374,Damaged,1
+9184,12379,Damaged,8
+9185,12388,Wrong Item,6
+9186,12392,Wrong Item,2
+9187,12393,Late Delivery,4
+9188,12407,Damaged,10
+9189,12410,Wrong Item,2
+9190,12414,Damaged,10
+9191,12429,Wrong Item,10
+9192,12449,Late Delivery,3
+9193,12458,Late Delivery,14
+9194,12500,Wrong Item,7
+9195,12511,Late Delivery,3
+9196,12519,Damaged,5
+9197,12545,Damaged,11
+9198,12548,Damaged,6
+9199,12570,Wrong Item,4
+9200,12588,Late Delivery,6
+9201,12598,Late Delivery,4
+9202,12626,Late Delivery,3
+9203,12650,Wrong Item,7
+9204,12658,Late Delivery,2
+9205,12660,Late Delivery,2
+9206,12668,Damaged,4
+9207,12696,Damaged,1
+9208,12702,Late Delivery,1
+9209,12713,Late Delivery,2
+9210,12717,Damaged,7
+9211,12732,Late Delivery,5
+9212,12739,Wrong Item,1
+9213,12745,Late Delivery,7
+9214,12757,Damaged,17
+9215,12778,Damaged,11
+9216,12780,Late Delivery,7
+9217,12784,Late Delivery,18
+9218,12787,Wrong Item,5
+9219,12799,Damaged,7
+9220,12815,Wrong Item,15
+9221,12836,Wrong Item,2
+9222,12844,Damaged,1
+9223,12857,Damaged,6
+9224,12861,Damaged,12
+9225,12871,Wrong Item,1
+9226,12884,Wrong Item,8
+9227,12919,Damaged,6
+9228,12927,Wrong Item,3
+9229,12933,Damaged,11
+9230,12943,Late Delivery,5
+9231,12973,Late Delivery,1
+9232,12988,Wrong Item,14
+9233,12995,Late Delivery,7
+9234,12998,Damaged,5
+9235,13008,Wrong Item,8
+9236,13018,Wrong Item,1
+9237,13023,Damaged,1
+9238,13035,Wrong Item,6
+9239,13042,Late Delivery,8
+9240,13052,Late Delivery,6
+9241,13097,Damaged,18
+9242,13103,Wrong Item,1
+9243,13110,Wrong Item,11
+9244,13159,Damaged,10
+9245,13173,Damaged,1
+9246,13180,Late Delivery,7
+9247,13183,Damaged,5
+9248,13184,Damaged,15
+9249,13199,Late Delivery,3
+9250,13209,Wrong Item,11
+9251,13223,Wrong Item,1
+9252,13241,Late Delivery,2
+9253,13242,Late Delivery,8
+9254,13255,Wrong Item,1
+9255,13262,Wrong Item,16
+9256,13268,Wrong Item,2
+9257,13303,Wrong Item,3
+9258,13314,Damaged,8
+9259,13317,Late Delivery,2
+9260,13333,Late Delivery,3
+9261,13348,Wrong Item,16
+9262,13363,Late Delivery,3
+9263,13393,Wrong Item,1
+9264,13401,Wrong Item,5
+9265,13405,Wrong Item,1
+9266,13411,Damaged,5
+9267,13430,Late Delivery,1
+9268,13431,Wrong Item,21
+9269,13433,Damaged,14
+9270,13449,Damaged,1
+9271,13450,Late Delivery,12
+9272,13461,Damaged,13
+9273,13462,Late Delivery,2
+9274,13480,Wrong Item,1
+9275,13481,Late Delivery,2
+9276,13553,Damaged,13
+9277,13569,Late Delivery,14
+9278,13587,Late Delivery,3
+9279,13588,Late Delivery,13
+9280,13628,Damaged,7
+9281,13637,Late Delivery,2
+9282,13643,Wrong Item,9
+9283,13644,Late Delivery,3
+9284,13670,Damaged,6
+9285,13678,Late Delivery,1
+9286,13685,Damaged,1
+9287,13691,Damaged,7
+9288,13707,Wrong Item,1
+9289,13722,Late Delivery,10
+9290,13724,Damaged,2
+9291,13735,Wrong Item,14
+9292,13740,Late Delivery,2
+9293,13777,Damaged,5
+9294,13803,Damaged,4
+9295,13804,Wrong Item,14
+9296,13841,Damaged,5
+9297,13855,Late Delivery,8
+9298,13873,Damaged,6
+9299,13879,Damaged,12
+9300,13907,Late Delivery,5
+9301,13947,Wrong Item,10
+9302,13950,Late Delivery,5
+9303,13955,Late Delivery,8
+9304,13992,Damaged,1
+9305,14013,Damaged,2
+9306,14022,Late Delivery,17
+9307,14024,Wrong Item,18
+9308,14033,Wrong Item,6
+9309,14042,Wrong Item,4
+9310,14101,Late Delivery,1
+9311,14121,Wrong Item,6
+9312,14166,Damaged,6
+9313,14175,Wrong Item,16
+9314,14180,Damaged,10
+9315,14190,Late Delivery,1
+9316,14211,Late Delivery,3
+9317,14236,Wrong Item,10
+9318,14238,Wrong Item,19
+9319,14249,Late Delivery,1
+9320,14255,Damaged,3
+9321,14276,Damaged,10
+9322,14290,Damaged,3
+9323,14293,Wrong Item,9
+9324,14299,Wrong Item,1
+9325,14305,Wrong Item,10
+9326,14329,Damaged,8
+9327,14353,Wrong Item,4
+9328,14357,Late Delivery,14
+9329,14378,Wrong Item,11
+9330,14388,Wrong Item,20
+9331,14403,Damaged,1
+9332,14407,Damaged,16
+9333,14420,Wrong Item,2
+9334,14421,Damaged,9
+9335,14422,Late Delivery,16
+9336,14453,Damaged,7
+9337,14463,Damaged,6
+9338,14490,Damaged,15
+9339,14491,Wrong Item,12
+9340,14495,Late Delivery,11
+9341,14497,Late Delivery,11
+9342,14508,Damaged,5
+9343,14513,Late Delivery,7
+9344,14521,Late Delivery,7
+9345,14538,Late Delivery,1
+9346,14542,Late Delivery,3
+9347,14549,Wrong Item,4
+9348,14554,Wrong Item,6
+9349,14561,Late Delivery,1
+9350,14562,Late Delivery,9
+9351,14581,Late Delivery,4
+9352,14582,Damaged,1
+9353,14608,Damaged,6
+9354,14626,Damaged,1
+9355,14654,Wrong Item,4
+9356,14676,Wrong Item,13
+9357,14704,Late Delivery,18
+9358,14716,Late Delivery,5
+9359,14730,Wrong Item,13
+9360,14734,Wrong Item,12
+9361,14737,Late Delivery,8
+9362,14739,Late Delivery,1
+9363,14741,Late Delivery,1
+9364,14750,Damaged,12
+9365,14756,Wrong Item,16
+9366,14796,Wrong Item,3
+9367,14816,Damaged,1
+9368,14820,Late Delivery,10
+9369,14830,Wrong Item,3
+9370,14832,Wrong Item,4
+9371,14835,Wrong Item,3
+9372,14848,Damaged,9
+9373,14851,Late Delivery,1
+9374,14857,Wrong Item,19
+9375,14860,Late Delivery,1
+9376,14880,Wrong Item,1
+9377,14888,Late Delivery,1
+9378,14904,Late Delivery,9
+9379,14919,Damaged,13
+9380,14923,Damaged,1
+9381,14934,Wrong Item,7
+9382,14956,Damaged,3
+9383,14991,Damaged,6
+9384,15007,Wrong Item,1
+9385,15011,Damaged,1
+9386,15015,Wrong Item,5
+9387,15031,Late Delivery,5
+9388,15049,Wrong Item,13
+9389,15076,Late Delivery,3
+9390,15090,Wrong Item,25
+9391,15142,Damaged,7
+9392,15165,Wrong Item,3
+9393,15190,Wrong Item,6
+9394,15192,Damaged,6
+9395,15227,Late Delivery,2
+9396,15249,Late Delivery,2
+9397,15262,Damaged,6
+9398,15272,Damaged,16
+9399,15274,Damaged,16
+9400,15279,Damaged,3
+9401,15292,Damaged,7
+9402,15295,Late Delivery,1
+9403,15320,Late Delivery,15
+9404,15328,Late Delivery,3
+9405,15330,Damaged,16
+9406,15335,Damaged,2
+9407,15347,Late Delivery,11
+9408,15349,Wrong Item,7
+9409,15350,Late Delivery,7
+9410,15351,Wrong Item,9
+9411,15353,Damaged,14
+9412,15357,Damaged,10
+9413,15365,Wrong Item,2
+9414,15400,Late Delivery,1
+9415,15409,Late Delivery,4
+9416,15413,Wrong Item,17
+9417,15422,Damaged,16
+9418,15427,Late Delivery,3
+9419,15455,Wrong Item,5
+9420,15456,Damaged,3
+9421,15461,Late Delivery,2
+9422,15465,Late Delivery,12
+9423,15471,Wrong Item,13
+9424,15480,Wrong Item,1
+9425,15489,Wrong Item,9
+9426,15518,Late Delivery,1
+9427,15554,Late Delivery,10
+9428,15558,Damaged,5
+9429,15565,Late Delivery,10
+9430,15567,Late Delivery,15
+9431,15568,Late Delivery,1
+9432,15572,Late Delivery,7
+9433,15576,Damaged,3
+9434,15587,Late Delivery,11
+9435,15591,Late Delivery,2
+9436,15605,Late Delivery,1
+9437,15610,Late Delivery,1
+9438,15618,Damaged,9
+9439,15665,Damaged,15
+9440,15678,Wrong Item,7
+9441,15707,Wrong Item,9
+9442,15712,Late Delivery,11
+9443,15720,Late Delivery,2
+9444,15740,Late Delivery,4
+9445,15742,Damaged,13
+9446,15771,Wrong Item,12
+9447,15772,Damaged,8
+9448,15773,Damaged,3
+9449,15800,Late Delivery,3
+9450,15806,Wrong Item,2
+9451,15812,Wrong Item,15
+9452,15815,Late Delivery,1
+9453,15819,Wrong Item,3
+9454,15834,Wrong Item,12
+9455,15848,Wrong Item,2
+9456,15866,Late Delivery,2
+9457,15917,Damaged,2
+9458,15922,Late Delivery,8
+9459,15923,Late Delivery,10
+9460,15928,Damaged,1
+9461,15947,Damaged,5
+9462,15949,Late Delivery,7
+9463,15964,Wrong Item,7
+9464,15985,Damaged,9
+9465,15987,Damaged,2
+9466,16011,Damaged,7
+9467,16012,Damaged,14
+9468,16026,Damaged,2
+9469,16039,Damaged,1
+9470,16041,Damaged,15
+9471,16050,Wrong Item,4
+9472,16053,Damaged,8
+9473,16061,Late Delivery,5
+9474,16099,Wrong Item,1
+9475,16106,Late Delivery,22
+9476,16151,Damaged,3
+9477,16163,Wrong Item,1
+9478,16212,Wrong Item,10
+9479,16215,Wrong Item,17
+9480,16229,Damaged,13
+9481,16261,Wrong Item,1
+9482,16292,Damaged,11
+9483,16297,Damaged,15
+9484,16308,Wrong Item,17
+9485,16309,Wrong Item,15
+9486,16312,Wrong Item,7
+9487,16319,Late Delivery,2
+9488,16323,Damaged,1
+9489,16330,Wrong Item,3
+9490,16368,Late Delivery,6
+9491,16381,Wrong Item,8
+9492,16386,Wrong Item,3
+9493,16395,Wrong Item,19
+9494,16418,Damaged,7
+9495,16442,Late Delivery,19
+9496,16450,Wrong Item,2
+9497,16458,Late Delivery,18
+9498,16462,Late Delivery,18
+9499,16463,Wrong Item,1
+9500,16476,Damaged,9
+9501,16480,Late Delivery,8
+9502,16498,Wrong Item,2
+9503,16532,Late Delivery,22
+9504,16533,Late Delivery,11
+9505,16550,Wrong Item,16
+9506,16567,Damaged,1
+9507,16587,Damaged,1
+9508,16589,Late Delivery,2
+9509,16615,Damaged,1
+9510,16623,Late Delivery,16
+9511,16635,Late Delivery,6
+9512,16640,Late Delivery,7
+9513,16641,Late Delivery,1
+9514,16671,Damaged,18
+9515,16698,Late Delivery,16
+9516,16705,Damaged,6
+9517,16706,Wrong Item,15
+9518,16736,Late Delivery,1
+9519,16751,Late Delivery,8
+9520,16758,Late Delivery,1
+9521,16779,Late Delivery,12
+9522,16786,Wrong Item,1
+9523,16788,Damaged,2
+9524,16796,Wrong Item,13
+9525,16798,Damaged,1
+9526,16807,Wrong Item,6
+9527,16810,Late Delivery,1
+9528,16811,Wrong Item,10
+9529,16813,Late Delivery,3
+9530,16836,Late Delivery,1
+9531,16849,Damaged,7
+9532,16854,Damaged,17
+9533,16902,Wrong Item,7
+9534,16904,Wrong Item,8
+9535,16932,Late Delivery,17
+9536,16934,Damaged,13
+9537,16961,Wrong Item,1
+9538,16970,Damaged,19
+9539,16996,Wrong Item,1
+9540,17007,Wrong Item,2
+9541,17029,Late Delivery,5
+9542,17039,Late Delivery,1
+9543,17056,Damaged,1
+9544,17062,Damaged,2
+9545,17063,Wrong Item,5
+9546,17105,Wrong Item,16
+9547,17109,Late Delivery,12
+9548,17117,Wrong Item,10
+9549,17123,Late Delivery,6
+9550,17132,Late Delivery,6
+9551,17140,Wrong Item,8
+9552,17156,Damaged,4
+9553,17165,Late Delivery,7
+9554,17167,Late Delivery,4
+9555,17168,Wrong Item,18
+9556,17204,Late Delivery,11
+9557,17217,Late Delivery,4
+9558,17220,Late Delivery,20
+9559,17248,Wrong Item,4
+9560,17266,Wrong Item,8
+9561,17272,Late Delivery,1
+9562,17276,Late Delivery,13
+9563,17279,Late Delivery,12
+9564,17283,Damaged,13
+9565,17293,Damaged,5
+9566,17333,Late Delivery,7
+9567,17339,Wrong Item,3
+9568,17340,Wrong Item,2
+9569,17343,Wrong Item,2
+9570,17344,Late Delivery,8
+9571,17382,Wrong Item,2
+9572,17388,Damaged,16
+9573,17400,Late Delivery,5
+9574,17437,Damaged,6
+9575,17456,Late Delivery,1
+9576,17465,Damaged,7
+9577,17472,Late Delivery,3
+9578,17481,Damaged,12
+9579,17484,Damaged,6
+9580,17499,Wrong Item,15
+9581,17511,Damaged,1
+9582,17556,Damaged,4
+9583,17557,Wrong Item,6
+9584,17564,Late Delivery,18
+9585,17577,Late Delivery,18
+9586,17601,Late Delivery,1
+9587,17618,Damaged,1
+9588,17623,Late Delivery,4
+9589,17625,Late Delivery,7
+9590,17640,Wrong Item,3
+9591,17653,Damaged,6
+9592,17654,Damaged,4
+9593,17664,Wrong Item,14
+9594,17669,Late Delivery,17
+9595,17673,Damaged,7
+9596,17674,Wrong Item,8
+9597,17684,Late Delivery,1
+9598,17692,Damaged,1
+9599,17694,Damaged,6
+9600,17702,Wrong Item,4
+9601,17706,Wrong Item,11
+9602,17711,Late Delivery,13
+9603,17712,Late Delivery,7
+9604,17718,Damaged,3
+9605,17725,Wrong Item,7
+9606,17729,Late Delivery,8
+9607,17741,Late Delivery,4
+9608,17744,Wrong Item,10
+9609,17768,Wrong Item,4
+9610,17783,Wrong Item,6
+9611,17784,Damaged,22
+9612,17795,Late Delivery,20
+9613,17798,Wrong Item,17
+9614,17800,Wrong Item,13
+9615,17861,Late Delivery,14
+9616,17874,Late Delivery,11
+9617,17906,Damaged,12
+9618,17930,Late Delivery,10
+9619,17970,Wrong Item,2
+9620,17974,Wrong Item,13
+9621,18002,Damaged,1
+9622,18008,Wrong Item,2
+9623,18018,Wrong Item,7
+9624,18035,Damaged,7
+9625,18065,Damaged,3
+9626,18067,Wrong Item,1
+9627,18073,Wrong Item,8
+9628,18077,Wrong Item,8
+9629,18080,Late Delivery,4
+9630,18083,Wrong Item,3
+9631,18084,Wrong Item,1
+9632,18092,Late Delivery,5
+9633,18103,Damaged,4
+9634,18112,Late Delivery,5
+9635,18118,Wrong Item,3
+9636,18155,Wrong Item,8
+9637,18167,Wrong Item,15
+9638,18170,Late Delivery,5
+9639,18192,Damaged,7
+9640,18204,Damaged,5
+9641,18236,Late Delivery,8
+9642,18238,Wrong Item,1
+9643,18243,Wrong Item,10
+9644,18262,Late Delivery,2
+9645,18265,Late Delivery,3
+9646,18287,Late Delivery,2
+9647,18301,Damaged,4
+9648,18330,Damaged,8
+9649,18331,Damaged,8
+9650,18350,Damaged,3
+9651,18352,Damaged,12
+9652,18370,Wrong Item,2
+9653,18394,Damaged,1
+9654,18400,Damaged,9
+9655,18404,Late Delivery,2
+9656,18407,Late Delivery,6
+9657,18408,Damaged,11
+9658,18420,Damaged,7
+9659,18424,Wrong Item,5
+9660,18428,Wrong Item,4
+9661,18433,Wrong Item,2
+9662,18437,Wrong Item,1
+9663,18471,Wrong Item,8
+9664,18476,Damaged,9
+9665,18477,Damaged,14
+9666,18506,Late Delivery,19
+9667,18536,Damaged,3
+9668,18545,Damaged,7
+9669,18554,Damaged,12
+9670,18570,Late Delivery,13
+9671,18590,Wrong Item,21
+9672,18601,Damaged,1
+9673,18627,Late Delivery,19
+9674,18635,Wrong Item,4
+9675,18636,Damaged,13
+9676,18657,Wrong Item,4
+9677,18674,Late Delivery,3
+9678,18682,Damaged,3
+9679,18686,Wrong Item,5
+9680,18690,Wrong Item,10
+9681,18698,Damaged,18
+9682,18747,Damaged,5
+9683,18758,Wrong Item,3
+9684,18763,Damaged,10
+9685,18768,Late Delivery,2
+9686,18780,Wrong Item,1
+9687,18781,Wrong Item,7
+9688,18789,Damaged,13
+9689,18797,Damaged,5
+9690,18803,Wrong Item,18
+9691,18822,Late Delivery,11
+9692,18837,Damaged,12
+9693,18838,Late Delivery,8
+9694,18840,Wrong Item,5
+9695,18853,Wrong Item,6
+9696,18866,Late Delivery,1
+9697,18869,Wrong Item,5
+9698,18889,Wrong Item,25
+9699,18894,Late Delivery,5
+9700,18901,Wrong Item,6
+9701,18906,Late Delivery,2
+9702,18917,Wrong Item,11
+9703,18959,Late Delivery,2
+9704,18965,Wrong Item,5
+9705,18969,Wrong Item,4
+9706,18973,Late Delivery,19
+9707,18991,Wrong Item,10
+9708,19005,Damaged,1
+9709,19014,Late Delivery,8
+9710,19027,Damaged,2
+9711,19051,Wrong Item,12
+9712,19067,Damaged,10
+9713,19105,Wrong Item,1
+9714,19111,Wrong Item,16
+9715,19120,Damaged,3
+9716,19121,Wrong Item,11
+9717,19125,Late Delivery,3
+9718,19164,Late Delivery,21
+9719,19166,Wrong Item,19
+9720,19172,Wrong Item,9
+9721,19177,Late Delivery,16
+9722,19190,Wrong Item,9
+9723,19191,Damaged,4
+9724,19213,Wrong Item,4
+9725,19231,Damaged,9
+9726,19243,Late Delivery,3
+9727,19256,Damaged,1
+9728,19257,Wrong Item,5
+9729,19260,Damaged,20
+9730,19261,Damaged,6
+9731,19281,Damaged,3
+9732,19285,Wrong Item,7
+9733,19289,Damaged,11
+9734,19290,Late Delivery,1
+9735,19301,Wrong Item,5
+9736,19322,Damaged,4
+9737,19337,Wrong Item,3
+9738,19345,Damaged,7
+9739,19356,Late Delivery,15
+9740,19376,Late Delivery,11
+9741,19411,Damaged,2
+9742,19412,Wrong Item,2
+9743,19425,Damaged,2
+9744,19430,Wrong Item,6
+9745,19433,Wrong Item,5
+9746,19440,Late Delivery,9
+9747,19442,Late Delivery,12
+9748,19449,Late Delivery,20
+9749,19452,Damaged,6
+9750,19456,Damaged,12
+9751,19483,Wrong Item,11
+9752,19484,Damaged,1
+9753,19494,Late Delivery,1
+9754,19495,Wrong Item,4
+9755,19513,Damaged,3
+9756,19522,Wrong Item,15
+9757,19528,Late Delivery,14
+9758,19553,Late Delivery,6
+9759,19602,Late Delivery,15
+9760,19606,Damaged,13
+9761,19617,Damaged,1
+9762,19626,Late Delivery,2
+9763,19642,Late Delivery,3
+9764,19672,Late Delivery,1
+9765,19684,Wrong Item,1
+9766,19695,Late Delivery,3
+9767,19708,Damaged,6
+9768,19729,Late Delivery,4
+9769,19737,Late Delivery,1
+9770,19746,Damaged,6
+9771,19747,Wrong Item,12
+9772,19756,Damaged,2
+9773,19757,Damaged,6
+9774,19764,Late Delivery,6
+9775,19785,Wrong Item,3
+9776,19788,Late Delivery,3
+9777,19792,Damaged,3
+9778,19797,Late Delivery,5
+9779,19803,Late Delivery,5
+9780,19810,Late Delivery,11
+9781,19826,Damaged,2
+9782,19828,Wrong Item,14
+9783,19829,Wrong Item,5
+9784,19834,Damaged,8
+9785,19836,Late Delivery,21
+9786,19840,Damaged,13
+9787,19841,Damaged,4
+9788,19849,Late Delivery,7
+9789,19855,Late Delivery,2
+9790,19863,Late Delivery,2
+9791,19884,Late Delivery,21
+9792,19892,Late Delivery,7
+9793,19900,Damaged,5
+9794,19903,Late Delivery,8
+9795,19908,Damaged,8
+9796,19920,Damaged,13
+9797,19925,Damaged,1
+9798,19972,Damaged,2
+9799,19993,Damaged,2
+9800,19994,Late Delivery,8
+9801,19996,Damaged,6
+9802,19998,Wrong Item,7
